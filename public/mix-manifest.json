@@ -1,0 +1,11 @@
+{
+    "/js/frontend_assets/app.js": "/js/frontend_assets/app.js",
+    "/js/admin_assets/app.js": "/js/admin_assets/app.js",
+    "/js/admin_assets/jquery.js": "/js/admin_assets/jquery.js",
+    "/js/common/icheck.js": "/js/common/icheck.js",
+    "/css/admin_assets/app.css": "/css/admin_assets/app.css",
+    "/css/frontend_assets/app.css": "/css/frontend_assets/app.css",
+    "/css/admin_assets/custom_datatables.css": "/css/admin_assets/custom_datatables.css",
+    "/css/frontend_assets/frontend_custom.css": "/css/frontend_assets/frontend_custom.css",
+    "/css/common/common.css": "/css/common/common.css"
+}

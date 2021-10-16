@@ -1,0 +1,32 @@
+@font-face {
+    font-family: myCustomFont;
+    src: url(/fonts/Vazir-FD-WOL.eot?1b5539cdf08a6bd7d02e6b4c3e265a95);
+    src: url(/fonts/Vazir-FD-WOL.eot?1b5539cdf08a6bd7d02e6b4c3e265a95?#iefix) format('FontName-opentype'),
+    url(/fonts/Vazir-FD-WOL.woff?18dfcb396fcd4c60610c66ff537731a3) format('woff'),
+    url(/fonts/Vazir-FD-WOL.ttf?22679c959dc40b2b2cff21ec46216652) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.swal-text {
+    text-align: right;
+    font-size: 13px;
+}
+.swal-title {
+    font-size: 22px;
+}
+a.delete_item{
+    font-size: 20px;
+    margin: 0 0 5px 10px
+}
+a.edit_item{
+    font-size: 20px;
+    margin: 0 10px 5px 0;
+}
+.tooltip {
+    font-family: myCustomFont;
+}
+*{
+    font-family: myCustomFont;
+}
+
+
