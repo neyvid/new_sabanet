@@ -15,6 +15,7 @@ class CreateOpratorsTable extends Migration
     {
         Schema::create('oprators', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

@@ -15,6 +15,8 @@ class CreateTelecomCentersTable extends Migration
     {
         Schema::create('telecom_centers', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->bigInteger('city_id');
             $table->timestamps();
         });
     }

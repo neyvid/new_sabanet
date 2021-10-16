@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class oprator extends Model
 {
     use HasFactory;
+    protected $guarded=['id'];
+
+    public function areacodes()
+    {
+        return $this->hasMany(areacode::class);
+    }
 }

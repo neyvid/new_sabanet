@@ -15,6 +15,11 @@ class CreateAreacodesTable extends Migration
     {
         Schema::create('areacodes', function (Blueprint $table) {
             $table->id();
+            $table->string('areacode'); //pishshomare exp:3628,3434,3572
+            $table->string('code');  //Province Codes exp: 031,021,011
+            $table->bigInteger('city_id');
+            $table->bigInteger('province_id');
+            $table->bigInteger('telecom_center_id');
             $table->timestamps();
         });
     }
